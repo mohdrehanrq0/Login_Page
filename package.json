@@ -4,6 +4,7 @@
   "description": "Simple Style Login Page Just For Fun",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon ./backend/server.js",
     "dev": "nodemon ./backend/server.js"
   },
   "repository": {
@@ -18,9 +19,8 @@
   "homepage": "https://github.com/pv03158/Login_Page#readme",
   "dependencies": {
     "express": "^4.16.4",
+    "nodemon": "^2.0.4",
     "pg": "^7.9.0"
   },
-  "devDependencies": {
-    "nodemon": "^1.18.10"
-  }
+  "devDependencies": {}
 }
